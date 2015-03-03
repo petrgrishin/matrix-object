@@ -8,9 +8,9 @@ namespace PetrGrishin\MatrixObject;
 
 
 class BaseMatrixObject implements MatrixObject {
-
     /** @var array|MatrixObject */
     private $data;
+
     /**
      * @param array|MatrixObject $data
      * @return $this

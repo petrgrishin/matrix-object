@@ -13,6 +13,7 @@ interface MatrixObject {
      * @param array|MatrixObject $data
      */
     public function setArray($data);
+
     /**
      * @return array
      */
