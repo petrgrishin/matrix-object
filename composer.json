@@ -1,0 +1,25 @@
+{
+  "name": "petrgrishin/matrix-object",
+  "description": "Interface matrix object",
+  "license": "MIT",
+  "require": {
+    "php": ">=5.3.0"
+  },
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://github.com/petrgrishin/matrix-object.git"
+    }
+  ],
+  "authors": [
+    {
+      "name": "Petr Grishin",
+      "email": "petr.grishin@grishini.ru"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "PetrGrishin\\MatrixObject\\": "src/"
+    }
+  }
+}
